@@ -35,8 +35,8 @@ end
 
 def hit?(num)
   prompt_user
-  get_user_input
-  if get_user_input != "s" || "h"
+  answer = get_user_input
+  if answer != "s" && "h"
     invalid_command
     prompt_user
     elsif get_user_input == "s"
