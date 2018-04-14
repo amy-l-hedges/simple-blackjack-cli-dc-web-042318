@@ -43,8 +43,7 @@ def hit?(num)
   elsif answer == "s"
   return total
   elsif get_user_input == "h"
-  deal_card
-#display_card_total(num)
+  return deal_card + total
 end
 end
 
