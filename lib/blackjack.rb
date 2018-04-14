@@ -40,6 +40,9 @@ def hit?(num)
   
 end
 
+  if "a" !== "s" || "h"
+    puts false
+
 
 #####################################################
 # get every test to pass before coding runner below #
