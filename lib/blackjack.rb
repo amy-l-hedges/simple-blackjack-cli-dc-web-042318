@@ -36,12 +36,10 @@ end
 def hit?(num)
   prompt_user
   get_user_input
-  if get_user_input !== "s" || "h"
-  
+  if get_user_input != "s" || "h"
+    invalid_command
 end
-
-  if "a" !== "s" || "h"
-    puts false
+end
 
 
 #####################################################
