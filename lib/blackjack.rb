@@ -42,8 +42,7 @@ def hit?(num)
     prompt_user
   elsif answer == "s"
   return total
-  elsif get_user_input == "h"
-  deal_card
+  elsif answer == "h"
   return deal_card + total
 end
 end
