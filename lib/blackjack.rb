@@ -36,13 +36,11 @@ end
 def hit?(num)
   prompt_user
   get_user_input
-  if get_user_input == 's'
+  if get_user_input !== "s" || "h"
+    invalid_command
+    promp_user
     display_card_total
-  elsif get_user_input == 'h'
-  deal_card
-else invalid_command
-  prompt_user
-end
+  end
 end
 
 
